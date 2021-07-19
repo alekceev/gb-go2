@@ -9,6 +9,8 @@ import (
 	"sync"
 )
 
+// SearchInUrls поиск текста
+// Возвращает слайс из урлов, где есть совпадение
 func SearchInUrls(query string, urls []string) ([]string, error) {
 	defer func() {
 		if v := recover(); v != nil {
