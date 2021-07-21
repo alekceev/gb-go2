@@ -4,7 +4,7 @@ import (
 	// "gb-go2/pkg/hw1"
 	"log"
 
-	search "github.com/alekceev/gosearcher"
+	search "github.com/alekceev/gosearcher/v2"
 )
 
 func main() {
