@@ -1,8 +1,10 @@
 package main
 
 import (
-	"gb-go2/pkg/hw1"
+	// "gb-go2/pkg/hw1"
 	"log"
+
+	search "github.com/alekceev/gosearcher/v2"
 )
 
 func main() {
@@ -13,15 +15,15 @@ func main() {
 		"https://restcountries.eu/rest/v2/alpha/au",
 	}
 
-	search := "English"
+	find := "English"
 
-	res, err := hw1.SearchInUrls(search, urls)
+	res, err := search.SearchInUrls(find, urls)
 
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	for _, u := range res {
-		log.Printf("found %s in %s\n", search, u)
+		log.Printf("found %s in %s\n", find, u)
 	}
 }
