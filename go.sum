@@ -1,2 +1,4 @@
 github.com/alekceev/gosearcher/v2 v2.0.1 h1:jhuh/HH2ZYAZdgaWl++HWeFp17kmyMvv5b6I3h+nX68=
 github.com/alekceev/gosearcher/v2 v2.0.1/go.mod h1:Z6WJH1SwN03/oRHJe6/7IxD3KhZwaJjax8YyQT22PRc=
+github.com/pkg/profile v1.6.0 h1:hUDfIISABYI59DyeB3OTay/HxSRwTQ8rB/H83k6r5dM=
+github.com/pkg/profile v1.6.0/go.mod h1:qBsxPvzyUincmltOk6iyRVxHYg4adc0OFOv72ZdLa18=
